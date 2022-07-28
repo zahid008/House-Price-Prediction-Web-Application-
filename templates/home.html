@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<style>
+    body{
+        background-image: url("{% static 'images/house.webp' %}");
+        background-size: cover;
+    }
+    h1{
+        color: grey;
+        text-align: center;
+        top: 50px;
+        position:relative;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Welcome to house prediction
+        </h1>
+    </div>
+</body>
+{% endblock content %}
